@@ -1,20 +1,9 @@
-import React, {Fragment, Component} from 'react';
+import React, {Fragment} from 'react';
 import NoControlado from './noControlado';
 //import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      tamano: '',
-      tipo: ''
-    };
-  }
-
-  render() {
-
+function App() {
     return (
       <Fragment>
         <NoControlado 
@@ -24,7 +13,6 @@ class App extends Component {
         />
       </Fragment>
     )
-  }
 }
 
 export default App;
